@@ -12,8 +12,7 @@ class temperature_db():
         self.password = "123456789"
         self.port = 3306
         self.database = "password_db"
-        self.my_connector = None
-        self.my_cursor = None
+        
     
     def conn_db (self):
         database_file = 'temperature.db'
@@ -24,3 +23,4 @@ class temperature_db():
             messagebox.showerror(title="数据库链接失败", message="数据库不存在，请将数据库放置到和程序同一目录下！")
             sys.exit()
         self.my_cursor = self.my_connector.cursor()
+
