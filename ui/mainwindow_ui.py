@@ -154,6 +154,7 @@ class Ui_MainWindow(object):
         self.fdn1in_btn_2.setObjectName(u"fdn1in_btn_2")
         self.fdn1in_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn1in_btn_2.setFont(font)
+        self.fdn1in_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn1in_btn_2, 0, 2, 1, 1)
 
@@ -177,6 +178,7 @@ class Ui_MainWindow(object):
         self.fdn1in_btn_3.setObjectName(u"fdn1in_btn_3")
         self.fdn1in_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn1in_btn_3.setFont(font)
+        self.fdn1in_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn1in_btn_3, 0, 4, 1, 1)
 
@@ -196,12 +198,13 @@ class Ui_MainWindow(object):
 
         self.gridLayout_2.addWidget(self.fdn1intm_3, 0, 5, 1, 1)
 
-        self.fdn1out_brn = QPushButton(self.page1_main)
-        self.fdn1out_brn.setObjectName(u"fdn1out_brn")
-        self.fdn1out_brn.setMinimumSize(QSize(0, 30))
-        self.fdn1out_brn.setFont(font)
+        self.fdn1out_btn = QPushButton(self.page1_main)
+        self.fdn1out_btn.setObjectName(u"fdn1out_btn")
+        self.fdn1out_btn.setMinimumSize(QSize(0, 30))
+        self.fdn1out_btn.setFont(font)
+        self.fdn1out_btn.setCheckable(True)
 
-        self.gridLayout_2.addWidget(self.fdn1out_brn, 1, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.fdn1out_btn, 1, 0, 1, 1)
 
         self.fdn1outtm = QLabel(self.page1_main)
         self.fdn1outtm.setObjectName(u"fdn1outtm")
@@ -223,6 +226,7 @@ class Ui_MainWindow(object):
         self.fdn1out_brn_2.setObjectName(u"fdn1out_brn_2")
         self.fdn1out_brn_2.setMinimumSize(QSize(0, 30))
         self.fdn1out_brn_2.setFont(font)
+        self.fdn1out_brn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn1out_brn_2, 1, 2, 1, 1)
 
@@ -246,6 +250,7 @@ class Ui_MainWindow(object):
         self.fdn1out_brn_3.setObjectName(u"fdn1out_brn_3")
         self.fdn1out_brn_3.setMinimumSize(QSize(0, 30))
         self.fdn1out_brn_3.setFont(font)
+        self.fdn1out_brn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn1out_brn_3, 1, 4, 1, 1)
 
@@ -269,6 +274,7 @@ class Ui_MainWindow(object):
         self.fdn2in_btn.setObjectName(u"fdn2in_btn")
         self.fdn2in_btn.setMinimumSize(QSize(0, 30))
         self.fdn2in_btn.setFont(font)
+        self.fdn2in_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn2in_btn, 2, 0, 1, 1)
 
@@ -292,6 +298,7 @@ class Ui_MainWindow(object):
         self.fdn2in_btn_2.setObjectName(u"fdn2in_btn_2")
         self.fdn2in_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn2in_btn_2.setFont(font)
+        self.fdn2in_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn2in_btn_2, 2, 2, 1, 1)
 
@@ -315,6 +322,7 @@ class Ui_MainWindow(object):
         self.fdn2in_btn_3.setObjectName(u"fdn2in_btn_3")
         self.fdn2in_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn2in_btn_3.setFont(font)
+        self.fdn2in_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn2in_btn_3, 2, 4, 1, 1)
 
@@ -338,6 +346,7 @@ class Ui_MainWindow(object):
         self.fdn2out_btn.setObjectName(u"fdn2out_btn")
         self.fdn2out_btn.setMinimumSize(QSize(0, 30))
         self.fdn2out_btn.setFont(font)
+        self.fdn2out_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn2out_btn, 3, 0, 1, 1)
 
@@ -361,6 +370,7 @@ class Ui_MainWindow(object):
         self.fdn2out_btn_2.setObjectName(u"fdn2out_btn_2")
         self.fdn2out_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn2out_btn_2.setFont(font)
+        self.fdn2out_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn2out_btn_2, 3, 2, 1, 1)
 
@@ -384,6 +394,7 @@ class Ui_MainWindow(object):
         self.fdn2out_btn_3.setObjectName(u"fdn2out_btn_3")
         self.fdn2out_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn2out_btn_3.setFont(font)
+        self.fdn2out_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn2out_btn_3, 3, 4, 1, 1)
 
@@ -407,6 +418,7 @@ class Ui_MainWindow(object):
         self.fdn3in_btn.setObjectName(u"fdn3in_btn")
         self.fdn3in_btn.setMinimumSize(QSize(0, 30))
         self.fdn3in_btn.setFont(font)
+        self.fdn3in_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn3in_btn, 4, 0, 1, 1)
 
@@ -430,6 +442,7 @@ class Ui_MainWindow(object):
         self.fdn3in_btn_2.setObjectName(u"fdn3in_btn_2")
         self.fdn3in_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn3in_btn_2.setFont(font)
+        self.fdn3in_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn3in_btn_2, 4, 2, 1, 1)
 
@@ -453,6 +466,7 @@ class Ui_MainWindow(object):
         self.fdn3in_btn_3.setObjectName(u"fdn3in_btn_3")
         self.fdn3in_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn3in_btn_3.setFont(font)
+        self.fdn3in_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn3in_btn_3, 4, 4, 1, 1)
 
@@ -476,6 +490,7 @@ class Ui_MainWindow(object):
         self.fdn3out_btn.setObjectName(u"fdn3out_btn")
         self.fdn3out_btn.setMinimumSize(QSize(0, 30))
         self.fdn3out_btn.setFont(font)
+        self.fdn3out_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn3out_btn, 5, 0, 1, 1)
 
@@ -499,6 +514,7 @@ class Ui_MainWindow(object):
         self.fdn3out_btn_2.setObjectName(u"fdn3out_btn_2")
         self.fdn3out_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn3out_btn_2.setFont(font)
+        self.fdn3out_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn3out_btn_2, 5, 2, 1, 1)
 
@@ -522,6 +538,7 @@ class Ui_MainWindow(object):
         self.fdn3out_btn_3.setObjectName(u"fdn3out_btn_3")
         self.fdn3out_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn3out_btn_3.setFont(font)
+        self.fdn3out_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn3out_btn_3, 5, 4, 1, 1)
 
@@ -545,6 +562,7 @@ class Ui_MainWindow(object):
         self.fdn4in_btn.setObjectName(u"fdn4in_btn")
         self.fdn4in_btn.setMinimumSize(QSize(0, 30))
         self.fdn4in_btn.setFont(font)
+        self.fdn4in_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn4in_btn, 6, 0, 1, 1)
 
@@ -568,6 +586,7 @@ class Ui_MainWindow(object):
         self.fdn4in_btn_2.setObjectName(u"fdn4in_btn_2")
         self.fdn4in_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn4in_btn_2.setFont(font)
+        self.fdn4in_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn4in_btn_2, 6, 2, 1, 1)
 
@@ -591,6 +610,7 @@ class Ui_MainWindow(object):
         self.fdn4in_btn_3.setObjectName(u"fdn4in_btn_3")
         self.fdn4in_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn4in_btn_3.setFont(font)
+        self.fdn4in_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn4in_btn_3, 6, 4, 1, 1)
 
@@ -614,6 +634,7 @@ class Ui_MainWindow(object):
         self.fdn4out_btn.setObjectName(u"fdn4out_btn")
         self.fdn4out_btn.setMinimumSize(QSize(0, 30))
         self.fdn4out_btn.setFont(font)
+        self.fdn4out_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn4out_btn, 7, 0, 1, 1)
 
@@ -637,6 +658,7 @@ class Ui_MainWindow(object):
         self.fdn4out_btn_2.setObjectName(u"fdn4out_btn_2")
         self.fdn4out_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn4out_btn_2.setFont(font)
+        self.fdn4out_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn4out_btn_2, 7, 2, 1, 1)
 
@@ -660,6 +682,7 @@ class Ui_MainWindow(object):
         self.fdn4out_btn_3.setObjectName(u"fdn4out_btn_3")
         self.fdn4out_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn4out_btn_3.setFont(font)
+        self.fdn4out_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn4out_btn_3, 7, 4, 1, 1)
 
@@ -683,6 +706,7 @@ class Ui_MainWindow(object):
         self.fdn5in_btn.setObjectName(u"fdn5in_btn")
         self.fdn5in_btn.setMinimumSize(QSize(0, 30))
         self.fdn5in_btn.setFont(font)
+        self.fdn5in_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn5in_btn, 8, 0, 1, 1)
 
@@ -706,6 +730,7 @@ class Ui_MainWindow(object):
         self.fdn5in_btn_2.setObjectName(u"fdn5in_btn_2")
         self.fdn5in_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn5in_btn_2.setFont(font)
+        self.fdn5in_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn5in_btn_2, 8, 2, 1, 1)
 
@@ -729,6 +754,7 @@ class Ui_MainWindow(object):
         self.fdn5in_btn_3.setObjectName(u"fdn5in_btn_3")
         self.fdn5in_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn5in_btn_3.setFont(font)
+        self.fdn5in_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn5in_btn_3, 8, 4, 1, 1)
 
@@ -752,6 +778,7 @@ class Ui_MainWindow(object):
         self.fdn5out_btn.setObjectName(u"fdn5out_btn")
         self.fdn5out_btn.setMinimumSize(QSize(0, 30))
         self.fdn5out_btn.setFont(font)
+        self.fdn5out_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn5out_btn, 9, 0, 1, 1)
 
@@ -775,6 +802,7 @@ class Ui_MainWindow(object):
         self.fdn5out_btn_2.setObjectName(u"fdn5out_btn_2")
         self.fdn5out_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn5out_btn_2.setFont(font)
+        self.fdn5out_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn5out_btn_2, 9, 2, 1, 1)
 
@@ -798,6 +826,7 @@ class Ui_MainWindow(object):
         self.fdn5out_btn_3.setObjectName(u"fdn5out_btn_3")
         self.fdn5out_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn5out_btn_3.setFont(font)
+        self.fdn5out_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn5out_btn_3, 9, 4, 1, 1)
 
@@ -821,6 +850,7 @@ class Ui_MainWindow(object):
         self.fdn6in_btn.setObjectName(u"fdn6in_btn")
         self.fdn6in_btn.setMinimumSize(QSize(0, 30))
         self.fdn6in_btn.setFont(font)
+        self.fdn6in_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn6in_btn, 10, 0, 1, 1)
 
@@ -844,6 +874,7 @@ class Ui_MainWindow(object):
         self.fdn6in_btn_2.setObjectName(u"fdn6in_btn_2")
         self.fdn6in_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn6in_btn_2.setFont(font)
+        self.fdn6in_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn6in_btn_2, 10, 2, 1, 1)
 
@@ -867,6 +898,7 @@ class Ui_MainWindow(object):
         self.fdn6in_btn_3.setObjectName(u"fdn6in_btn_3")
         self.fdn6in_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn6in_btn_3.setFont(font)
+        self.fdn6in_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn6in_btn_3, 10, 4, 1, 1)
 
@@ -890,6 +922,7 @@ class Ui_MainWindow(object):
         self.fdn6out_btn.setObjectName(u"fdn6out_btn")
         self.fdn6out_btn.setMinimumSize(QSize(0, 30))
         self.fdn6out_btn.setFont(font)
+        self.fdn6out_btn.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn6out_btn, 11, 0, 1, 1)
 
@@ -913,6 +946,7 @@ class Ui_MainWindow(object):
         self.fdn6out_btn_2.setObjectName(u"fdn6out_btn_2")
         self.fdn6out_btn_2.setMinimumSize(QSize(0, 30))
         self.fdn6out_btn_2.setFont(font)
+        self.fdn6out_btn_2.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn6out_btn_2, 11, 2, 1, 1)
 
@@ -936,6 +970,7 @@ class Ui_MainWindow(object):
         self.fdn6out_btn_3.setObjectName(u"fdn6out_btn_3")
         self.fdn6out_btn_3.setMinimumSize(QSize(0, 30))
         self.fdn6out_btn_3.setFont(font)
+        self.fdn6out_btn_3.setCheckable(True)
 
         self.gridLayout_2.addWidget(self.fdn6out_btn_3, 11, 4, 1, 1)
 
@@ -1009,9 +1044,9 @@ class Ui_MainWindow(object):
         self.fdn1in_btn_3.setText(QCoreApplication.translate("MainWindow", u"\u5907\u7528", None))
         self.fdn1intm_3.setText(QCoreApplication.translate("MainWindow", u"00.0", None))
 #if QT_CONFIG(statustip)
-        self.fdn1out_brn.setStatusTip(QCoreApplication.translate("MainWindow", u"\u6309\u94ae\u6309\u4e0b\uff0c\u62a5\u8b66\u503c\u5f00\u59cb\u542f\u7528", None))
+        self.fdn1out_btn.setStatusTip(QCoreApplication.translate("MainWindow", u"\u6309\u94ae\u6309\u4e0b\uff0c\u62a5\u8b66\u503c\u5f00\u59cb\u542f\u7528", None))
 #endif // QT_CONFIG(statustip)
-        self.fdn1out_brn.setText(QCoreApplication.translate("MainWindow", u"1#\u51b7\u4e95\u56de\u6c14", None))
+        self.fdn1out_btn.setText(QCoreApplication.translate("MainWindow", u"1#\u51b7\u4e95\u56de\u6c14", None))
         self.fdn1outtm.setText(QCoreApplication.translate("MainWindow", u"00.0", None))
 #if QT_CONFIG(statustip)
         self.fdn1out_brn_2.setStatusTip(QCoreApplication.translate("MainWindow", u"\u6309\u94ae\u6309\u4e0b\uff0c\u62a5\u8b66\u503c\u5f00\u59cb\u542f\u7528", None))
