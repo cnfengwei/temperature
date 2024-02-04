@@ -1,7 +1,9 @@
-from PySide6.QtWidgets import QLabel, QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QLabel, QApplication, QMainWindow, QPushButton, QWidget
 from ui.mainwindow_ui import Ui_MainWindow
-import sys
+from PySide6.QtCore import Qt,QTimer
+from temperature_reader import TemperatureReader
 from sql_class import temperature_db
+import sys
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -10,6 +12,18 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        # 创建TemperatureReader和TemperatureDB实例
+        self.temperature_reader = TemperatureReader()
+        self.temperature_db = temperature_db()
+
+        # 创建 QTimer，并连接 timeout 信号到更新函数
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.read_temperature)
+
+        # 设置定时器间隔为5秒
+        self.timer_interval = 5000  # 毫秒
+        self.timer.start(self.timer_interval)
+        
         self.ui.history_btn.clicked.connect(self.history_btn_clicked)
         self.ui.temperature_btn.clicked.connect(self.temperature_btn_clicked)
 
@@ -56,7 +70,10 @@ class MainWindow(QMainWindow):
                     text_color = "green" if is_checked else "black"
                     widget.setStyleSheet(f"color: {text_color};")
 
-
+    def read_temperature(self):
+        if self.temperature_reader.connect():
+            # 读取温度
+            temperatures = self.temperature_reader.read_temperature()
 
 if __name__ == '__main__':
     app = QApplication.instance()
