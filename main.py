@@ -74,13 +74,6 @@ if __name__ == '__main__':
         
 
    
-if __name__ == '__main__':
-    app = QApplication.instance()
-    if app is None:
-        app = QApplication(sys.argv)
-    main_window = MainWindow()
 
-    
-    main_window.show()
 
-    sys.exit(app.exec())
+ 
