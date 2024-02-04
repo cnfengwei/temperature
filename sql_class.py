@@ -24,3 +24,6 @@ class temperature_db():
             sys.exit()
         self.my_cursor = self.my_connector.cursor()
 
+    def on_button_clicked(self):
+        mydb=self.conn_db()
+        self.my_cursor

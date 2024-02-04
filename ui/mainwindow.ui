@@ -33,7 +33,7 @@
        <enum>QFrame::StyledPanel</enum>
       </property>
       <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
+       <enum>QFrame::Plain</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="0">
@@ -66,7 +66,7 @@ background-color: rgb(255, 255, 255);</string>
        <item row="2" column="0">
         <layout class="QVBoxLayout" name="verticalLayout">
          <item>
-          <widget class="QPushButton" name="pushButton">
+          <widget class="QPushButton" name="temperature_btn">
            <property name="styleSheet">
             <string notr="true">color: rgb(255, 255, 255);</string>
            </property>
@@ -76,7 +76,7 @@ background-color: rgb(255, 255, 255);</string>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_2">
+          <widget class="QPushButton" name="history_btn">
            <property name="styleSheet">
             <string notr="true">color: rgb(255, 255, 255);</string>
            </property>
@@ -86,7 +86,7 @@ background-color: rgb(255, 255, 255);</string>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_3">
+          <widget class="QPushButton" name="client_setup_btn">
            <property name="styleSheet">
             <string notr="true">color: rgb(255, 255, 255);</string>
            </property>
@@ -109,7 +109,7 @@ background-color: rgb(255, 255, 255);</string>
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_4">
+          <widget class="QPushButton" name="exit_btn">
            <property name="styleSheet">
             <string notr="true">color: rgb(255, 255, 255);</string>
            </property>
@@ -219,7 +219,10 @@ background-color: rgb(255, 255, 255);</string>
               </font>
              </property>
              <property name="autoFillBackground">
-              <bool>true</bool>
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -288,7 +291,10 @@ background-color: rgb(255, 255, 255);</string>
               </font>
              </property>
              <property name="autoFillBackground">
-              <bool>true</bool>
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -357,7 +363,10 @@ background-color: rgb(255, 255, 255);</string>
               </font>
              </property>
              <property name="autoFillBackground">
-              <bool>true</bool>
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -428,6 +437,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -496,6 +508,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -566,6 +581,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -634,6 +652,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -704,6 +725,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -772,6 +796,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -842,6 +869,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -910,6 +940,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -980,6 +1013,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -1048,6 +1084,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -1118,6 +1157,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -1187,6 +1229,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -1255,6 +1300,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -1400,6 +1448,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -1468,6 +1519,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -1541,6 +1595,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -1609,6 +1666,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -1679,6 +1739,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -1747,6 +1810,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -1817,6 +1883,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -1886,6 +1955,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -1951,6 +2023,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -2021,6 +2096,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -2089,6 +2167,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -2159,6 +2240,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -2227,6 +2311,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -2297,6 +2384,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -2365,6 +2455,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -2435,6 +2528,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -2503,6 +2599,9 @@ background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="autoFillBackground">
               <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
@@ -2573,6 +2672,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -2642,6 +2744,9 @@ background-color: rgb(255, 255, 255);</string>
              <property name="autoFillBackground">
               <bool>false</bool>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhFormattedNumbersOnly</set>
              </property>
@@ -2675,5 +2780,22 @@ background-color: rgb(255, 255, 255);</string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>exit_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>749</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>507</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
